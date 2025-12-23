@@ -15,7 +15,7 @@ const Sidebar = ({ role }) => {
   const NavConfig = ownerNavConfig;
 
   return (
-    <aside className="w-2/12 border border-blue-200">
+    <aside className="w-2/12 border border-blue-200 fixed h-screen">
       <div className="h-30 flex items-center justify-evenly mb8">
         <img src="/Logo.png" alt="Logo" className="h-[60px]" />
         <h3 className="text-black text-2xl">Payee</h3>

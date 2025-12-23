@@ -9,10 +9,10 @@ const OwnerLayout = () => {
       <Sidebar role="owner" />
 
       {/* Main Area */}
-      <div className="flex flex-col flex-1">
+      <div className="flex flex-col flex-1 w-10/12">
         <Header />
 
-        <main className="flex-1 p-6 bg-gray-50">
+        <main className="flex-1 p-6 bg-gray-50 w-10/12 self-end">
           <Outlet />
         </main>
       </div>
